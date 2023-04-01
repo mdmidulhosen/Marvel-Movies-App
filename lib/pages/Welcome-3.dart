@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
-import 'Welcome-4.dart';
+import 'package:marvel/pages/welcome-4.dart';
+
 
 class Welcome3 extends StatelessWidget {
   const Welcome3({super.key});
@@ -25,136 +24,144 @@ class Welcome3 extends StatelessWidget {
               ),
               child: 
               Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-
-                      Container(
-                        child: Row(
+                  
+                  Container(
+                    height: 280,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Image.asset('assets/images/splash.png', height: 60,),
-                        ],
-                      ),
-                      ),
 
-                    ],
-                  ),
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-
-                      Container(
-                        margin: EdgeInsets.only(top: 50),
-                        child: Row(
-
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(left: 5, right: 5),
-                            child: Container(
-                              height: 8,
-                              width: 8,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(100),
-                                color: Color(0xffffffff),
-                              ),
-                            ),
-                          ),
-
-                          Padding(
-                            padding: const EdgeInsets.only(left: 5, right: 5),
-                            child: Container(
-                              height: 8,
-                              width: 8,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(100),
-                                color: Color(0xffffffff),
-                              ),
-                            ),
-                          ),
-
-                          Padding(
-                            padding: const EdgeInsets.only(left: 5, right: 5),
-                            child: Container(
-                              height: 8,
-                              width: 8,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(100),
-                                color: Color(0xffED1B24),
-                              ),
-                            ),
-                          ),
-
-                          Padding(
-                            padding: const EdgeInsets.only(left: 5, right: 5),
-                            child: Container(
-                              height: 8,
-                              width: 8,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(100),
-                                color: Colors.white,
-                              ),
-                            ),
-                          ),
-
-                          Padding(
-                            padding: const EdgeInsets.only(left: 5, right: 5),
-                            child: Container(
-                              height: 8,
-                              width: 8,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(100),
-                                color: Colors.white,
-                              ),
-                            ),
-                          ),
-
-                          Padding(
-                            padding: const EdgeInsets.only(left: 5, right: 5),
-                            child: Container(
-                              height: 8,
-                              width: 8,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(100),
-                                color: Colors.white,
-                              ),
-                            ),
-                          ),
-
-                        ],
-
-                      ),
-                      ),
-                    ],
-                  ),
-
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-
-                      Container(
-                        margin: EdgeInsets.only(top: 50),
-                        child: Row(
-
-                        children: [
-                          Column(
+                          Container(
+                            child: Row(
                             children: [
-                              Text("Create profiles for ", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
-                              Text("diffrent members &", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
-                              Text("get personalised", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
-                              Text("recommendations", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
+                              Image.asset('assets/images/splash.png', height: 60,),
+                            ],
+                          ),
+                          ),
+
+                        ],
+                      ),
+
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+
+                          Container(
+                            margin: EdgeInsets.only(top: 50),
+                            child: Row(
+
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Color(0xffED1B24),
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
 
                             ],
-                          )
-                        ],
 
+                          ),
+                          ),
+                        ],
                       ),
+
+
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+
+                          Container(
+                            margin: EdgeInsets.only(top: 50),
+                            child: Row(
+
+                            children: [
+                              Column(
+                                children: [
+                                  Text("Create profiles for", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
+                                  Text("diffrent members &", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
+                                  Text("get personalised ", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
+                                  Text("recommendations", style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 20, fontFamily: 'Inter'),),
+
+                                ],
+                              )
+                            ],
+
+                          ),
+                          ),
+                        ],
                       ),
-                    ],
+                      ],
+                    ),
                   ),
 
                 ],
@@ -163,32 +170,26 @@ class Welcome3 extends StatelessWidget {
               
             ),
           
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Container(
-                margin: EdgeInsets.only(top: 60),
-                child: 
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Welcome4(),));
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(top: 10, bottom: 10, left: 80, right: 80),
-                    child: Text('Continue',
-                        style: TextStyle(
-                            fontSize: 18.38, fontWeight: FontWeight.w500, color: Colors.white, fontFamily: 'Inter'),
-                            ),
-                  ),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color(0xffed1b24),
-                            side: BorderSide(color: Color(0xffed1b24), width: 2),
+            Container(
+              margin: EdgeInsets.only(top: 60),
+              child: 
+              ElevatedButton(
+                onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Welcome4(),));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10, bottom: 10, left: 80, right: 80),
+                  child: Text('Continue',
+                      style: TextStyle(
+                          fontSize: 18.38, fontWeight: FontWeight.w500, color: Colors.white, fontFamily: 'Inter'),
                           ),
                 ),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Color(0xffed1b24),
+                          side: BorderSide(color: Color(0xffed1b24), width: 2),
+                        ),
               ),
-              ],
-            )
+            ),
           ],
         ),
       ),
