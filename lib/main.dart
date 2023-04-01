@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'pages/Splash.dart';
-import 'pages/welcome-1.dart';
-import 'pages/welcome-2.dart';
-import 'pages/welcome-3.dart';
-import 'pages/welcome-4.dart';
-import 'pages/welcome-5.dart';
-import 'pages/welcome-6.dart';
+
+import 'pages/Welcome-1.dart';
+
 
 void main() {
   runApp(const MyApp());

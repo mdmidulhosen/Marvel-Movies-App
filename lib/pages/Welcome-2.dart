@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:marvel/pages/welcome-3.dart';
 
 class Welcome2 extends StatelessWidget {
   const Welcome2({super.key});
@@ -167,7 +168,9 @@ class Welcome2 extends StatelessWidget {
                 margin: EdgeInsets.only(top: 60),
                 child: 
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Welcome3(),));
+                  },
                   child: Padding(
                     padding: const EdgeInsets.only(top: 10, bottom: 10, left: 80, right: 80),
                     child: Text('Continue',
