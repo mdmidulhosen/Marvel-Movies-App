@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:marvel/pages/SignUpPage.dart';
 
 // import 'package:marvel/pages/welcome-2.dart';
 
@@ -63,67 +64,67 @@ class Welcome6 extends StatelessWidget {
                                   width: 8,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(100),
+                                    color: Color(0xffffffff),
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+
+                              Padding(
+                                padding: const EdgeInsets.only(left: 5, right: 5),
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(100),
                                     color: Color(0xffED1B24),
-                                  ),
-                                ),
-                              ),
-
-                              Padding(
-                                padding: const EdgeInsets.only(left: 5, right: 5),
-                                child: Container(
-                                  height: 8,
-                                  width: 8,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(100),
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-
-                              Padding(
-                                padding: const EdgeInsets.only(left: 5, right: 5),
-                                child: Container(
-                                  height: 8,
-                                  width: 8,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(100),
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-
-                              Padding(
-                                padding: const EdgeInsets.only(left: 5, right: 5),
-                                child: Container(
-                                  height: 8,
-                                  width: 8,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(100),
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-
-                              Padding(
-                                padding: const EdgeInsets.only(left: 5, right: 5),
-                                child: Container(
-                                  height: 8,
-                                  width: 8,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(100),
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-
-                              Padding(
-                                padding: const EdgeInsets.only(left: 5, right: 5),
-                                child: Container(
-                                  height: 8,
-                                  width: 8,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(100),
-                                    color: Colors.white,
                                   ),
                                 ),
                               ),
@@ -148,7 +149,10 @@ class Welcome6 extends StatelessWidget {
                               Column(
                                 children: [
                                   ElevatedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpPage(),));
+
+                                  },
                                   child: Padding(
                                     padding: const EdgeInsets.only(top: 10, bottom: 10, left: 80, right: 80),
                                     child: Text('Signup',
@@ -172,12 +176,12 @@ class Welcome6 extends StatelessWidget {
                                         style: TextStyle(
                                             fontSize: 18.38, fontWeight: FontWeight.w500, color: Colors.white, fontFamily: 'Inter'),
                                             ),
-                                  ),
+                                          ),
                                           style: ElevatedButton.styleFrom(
                                             backgroundColor: Colors.transparent,
                                             side: BorderSide(color: Color(0xffed1b24), width: 2),
                                           ),
-                                                              ),
+                                  ),
                                 ),
 
                                 ],

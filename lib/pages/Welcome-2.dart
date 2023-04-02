@@ -63,7 +63,7 @@ class Welcome2 extends StatelessWidget {
                                   width: 8,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(100),
-                                    color: Color(0xffED1B24),
+                                    color: Color(0xffffffff),
                                   ),
                                 ),
                               ),
@@ -75,7 +75,7 @@ class Welcome2 extends StatelessWidget {
                                   width: 8,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(100),
-                                    color: Colors.white,
+                                    color: Color(0xffED1B24),
                                   ),
                                 ),
                               ),

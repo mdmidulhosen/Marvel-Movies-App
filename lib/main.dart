@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:marvel/pages/welcome-1.dart';
+import 'package:marvel/pages/PlansPage.dart';
+import 'package:marvel/pages/Welcome-1.dart';
 
 
 void main() {
